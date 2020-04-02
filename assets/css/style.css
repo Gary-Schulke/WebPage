@@ -1,0 +1,57 @@
+.common-background {
+    background: lightgrey
+}
+
+.nav-padding {
+  padding-top: 0px; 
+  padding-bottom: 0px;
+  padding-left: 0px
+}
+
+.para-bg-seashell {
+    background-color: whitesmoke;
+  }  
+
+.para-background {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: whitesmoke;
+  }
+
+.menu-color {
+    background-color: teal;
+    font-size: 30px;
+    margin-left: 2rem;
+  }
+
+  .margin-text {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  } 
+
+  .small-margin-text {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+    margin-right: 0rem;
+    font-size: large;
+    text-align:left;
+  } 
+
+  .teal-font {
+      color: teal
+  }
+
+@media (min-width: 760px) {
+#menu {
+       visibility: hidden;
+     }
+  }
+
+@media (max-width: 825px){
+.title-font{
+    font-size: large;
+  }
+}

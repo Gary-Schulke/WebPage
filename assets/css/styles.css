@@ -31,7 +31,27 @@ body {
 
 /* ----NAV START---- */
 .navbar-custom {
-  background-color: #fff;
+  background: transparent;
+  /* background-color: #FFFFF0;  */
+}
+
+.pagelogo {
+  /* Box-model */
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+
+  /* Positioning */
+  margin-left: 40px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(21, 29, 151);
+
+  /* Visual */
+ /* background: #4aaaa5;*/
 }
 
 #logo {
@@ -47,10 +67,10 @@ body {
   /* Typography */
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
+  color: rgb(21, 29, 151);
 
   /* Visual */
-  background: #4aaaa5;
+/*  background: #4aaaa5; */
 }
 
 /* Logo hover state */
@@ -62,7 +82,7 @@ body {
 .navbar-right-custom {
   /* Box-model */
   padding-top: 6px;
-  padding-right: 20px;
+  padding-right: 0px;
 
   /* Typography */
   font-family: Arial;
@@ -132,7 +152,7 @@ body {
   padding-top: 20px;
 
   /* Typography */
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
   color: slategray;
 }

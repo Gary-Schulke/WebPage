@@ -1,116 +1,120 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
 
-    <title>Home Gary Schulke</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+  <title>Home Gary Schulke</title>
 
-    <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
 
-  </head>
-  <style>
-    body {
-      background-image: url('pic2.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed; 
-      background-size: 100% 100%;
-    }
-    </style>
-  <body>
-    <!-- Start of navbar -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid navbar-custom">
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  <link rel="stylesheet" href="./assets/css/style_resume.css" media="screen">
+</head>
+<style>
+  body {
+    background-image: url('./assets/images/rain_and_snow.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+</style>
 
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle Navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Home</a>
-            </div>
-          </div>
+<body>
+  <!-- Start of navbar -->
+  <nav class="navbar  navbar-transparent">
+    <div class="container-fluid navbar-custom">
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                 <li><a href="visualizations/temp.html">Max Temperature</a></li>
-                  <li><a href="visualizations/humidity.html">Humidity</a></li>
-                  <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
-                  <li><a href="visualizations/wind.html">Wind Speed</a></li>
-                </ul>
-              </li>
-              <li><a href="comparison.html">Comparison</a></li>
-              <li><a href="data.html">Data</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-      </div><!-- /.container-fluid -->
-    </nav>
-    <!-- End of navbar -->
 
-    <!-- Start of container -->
-    <div class="container" id="clear_div">
-      <section class="row">
-        <div class="col-md-8" >
-          <article class="description-content">
-            <h1 class="description-header">Summary: Latitude vs. X</h1>
-            <hr class="description-hr"/>
-            <img src="assets/images/Fig1.png" alt="" id="description-image"/>
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-          </article>
-        </div>
-        <div class="col-md-4">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left navbar-right-custom">
+            <img src="assets/images/WereOpenSign.png" alt="" id="description-image" />
+            <li><a href="index.html" class="pagelogo">Home</a></li>
+            <li><a href="full_resume.html" class="pagelogo">Resume</a></li>
+            <li><a href="project_map.html" class="pagelogo">Map</a></li>
+            <!-- <li><a href="brand.html" class="pagelogo">About</a></li> -->
+            <li><a href="./assets/documents/GarySchulke_Resume.pdf" download target="blank"
+                class="pagelogo"><strong>Download Resume</strong></a></li>
+            <li><a href="https://gary-schulke.github.io/Project2/index.html" download target="blank"
+                class="pagelogo"><strong>Data Projects</strong></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- End of navbar -->
 
-          <!-- Start of Visualizations imageNav Area -->
-          <section id="imageNav-area">
-            <div class="imageNav-content">
-              <h2 class="imageNav-header">Visualizations</h2>
-              <hr />
-              <div id="images">
-                <a href="visualizations/temp.html"><img src="assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
-                <a href="visualizations/humidity.html"><img src="assets/images/Fig2.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
-                <a href="visualizations/cloudiness.html"><img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
-                <a href="visualizations/wind.html"><img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
-              </div>
-            </div>
-          </section>
-          <!-- End of the Visualizations imageNav Area -->
+  <!-- Start of container -->
+  <div class="container" id="clear_div">
+    <section class="row">
+      <div class="col-md-4">
+        <article class="description-content doc-background">
+          <h1 class="description-header">Gary Schulke</h1>
+          <hr class="description-hr" />
+          <!-- <img src="assets/images/WereOpenSign.png" alt="" id="description-image" /> -->
+          <p><br></p>
 
-        </div>
-      </section>
-    </div>
-    <!-- End of container -->
+        </article>
+      </div>
+      <div class="col-md-8">
+        <!-- Start of Visualizations imageNav Area -->
 
-    <!-- Start of footer -->
-    <footer class="footer navbar-fixed-bottom">
-      <div class="two-toned-footer-color"></div>
-      <p class="text-muted text-muted-footer text-center">
-        &copy; Gary Schulke 2020
-      </p>
-    </footer>
-    <!-- End of footer -->
+        <article class="description-content doc-background">
+          <h1 class="description-header">About</h1>
+          <hr />
+          <p>
+            I am a Senior Software Engineer with expertise in software/hardware communication and a
+            solid foundation in software development processes.
+            I have a Bachelor Degree in Computer Science from the University of New Mexico
+            and Certificate in Data Visualization from the University of Oregon.
+            I have been involved in all phases of the software
+            development life cycle from requirements thorough final test and maintenance.
+            My industry experience has been in the semiconductor industry with process control and aviation industry
+            with flight controls and satellite communications. I have programmed extensively using
+            Java, Smalltalk and C++
+            with skills in Python, JavaScript, SQL (Postgres) and NoSQL (MongoDB). I have led small and medium
+            size groups to design, develop, and deliver software enhancements and have worked extensively with domestic
+            and international customers and am successful working with remote and foreign coworkers.
+          </p>
+        </article>
+      </div>
+    </section>
+  </div>
+  <!-- End of container -->
 
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- Start of footer -->
+  <footer class="footer navbar-fixed-bottom">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Gary Schulke 2020
+      <a href="https://linkedin.com/in/gary-schulke"><img src="./assets/images/LinkedIn_icon.png" alt="LinkedIn"
+          class="comparison-image " style="width:30px;height:30px;"></a>
+    </p>
+  </footer>
+  <!-- End of footer -->
 
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  </body>
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
 
 </html>

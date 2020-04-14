@@ -136,6 +136,17 @@ body {
   color: #4aaaa5;
 }
 
+.description-content-businesscard {
+  /* Box-model */
+  padding: 0px;
+
+  /* Positioning */
+  margin-top: 10px;
+
+  /* Visual */
+  background-color: #fff;
+}
+
 .description-content {
   /* Box-model */
   padding: 30px;
@@ -159,6 +170,18 @@ body {
 
 .description-text {
   padding-bottom: 20px;
+}
+
+#description-businesscard {
+  /* Positioning */
+  float: left;
+
+  /* Box-model */
+  width: 360px;
+  height: 207px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 0px;
 }
 
 #description-image {
